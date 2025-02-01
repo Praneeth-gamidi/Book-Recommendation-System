@@ -27,15 +27,15 @@ The system processes three datasets:
 Ensure you have **Python 3.x** installed along with the required libraries.
 
 ### Install Dependencies
-
+```
 pip install pandas openpyxl
-
+```
 ### How to Run the Project
 1. Place the dataset files (`books.xlsx`, `ratings.xlsx`, `users.xlsx`) in the project directory.
 2. Run the Python script:
-   
+   ```
    python book_recommendation.py
-   
+   ```
 3. Enter your **User ID**, **Book Title**, and **Number of Recommendations** when prompted.
 4. The system will output a list of books similar to the entered title.
 
